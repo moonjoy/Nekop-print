@@ -1,0 +1,61 @@
+.button {
+  padding: 1.125rem 3rem;
+  cursor: pointer;
+  font-family: $primary-font;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.primary-button {
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+  color: $light-color;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.secondary-button {
+  border: 1px solid $dark-color;
+  background-color: $light-color;
+  color: $text-color;
+  &:hover {
+    background-color: #fcf3f0;
+  }
+}
+
+.cta-button {
+  background: $primary-color-light;
+  color: $light-color;
+  padding: 16px 28px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+  &:hover {
+    background-color: $primary-color;
+    color: $light-color;
+  }
+  a {
+    text-decoration: none;
+    color: $light-color;
+  }
+  &.cart-button {
+    padding: 6px 12px;
+    font-size: 1rem;
+  }
+
+  &.upload-button {
+    border: 1px solid #1e1e1e;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    background: #fff;
+    color: $text-color;
+  }
+}
+
+.button-lg {
+  padding: 1rem 2rem;
+  
+}

@@ -1,0 +1,158 @@
+.card-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+  .card-header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .card_img {
+    height: 390px;
+    width: 300px;
+  }
+
+  .card_title {
+    padding: 0 0.6rem 0 0.3rem;
+    .body1,
+    .body2 {
+      line-height: 1.33;
+    }
+    a.body1 {
+      color: $primary-color;
+      text-decoration: none;
+      &:hover {
+        color: $graphite;
+        text-decoration: underline;
+      }
+    }
+    & > * + * {
+      margin-top: 0.5rem;
+    }
+  }
+
+  .card_description {
+    padding: 1.2rem;
+  }
+}
+
+.card1 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+
+.card2 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+
+.card3 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+
+.card4 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+
+.card5 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+
+.card6 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+
+.card7 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+
+.card8 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+
+.card9 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+.card10 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+.card11 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}
+.card12 {
+  background: url(../../../images/front1.jpg) no-repeat 50% 50%;
+  background-size: 96%;
+  &:hover {
+    background: url(../../../images/back1.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+    cursor: pointer;
+  }
+}

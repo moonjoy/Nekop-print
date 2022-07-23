@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+}
+
+.flex-d-column{
+  flex-direction: column;
+} 
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-start {
+  justify-content: flex-start;
+
+  &-sm {
+    gap: 2rem;
+  }
+
+  &-md {
+    gap: 1rem;
+    @include breakpoint-up(small) {
+      gap: 3rem;
+    }
+  }
+}
+
+.inline-flex {
+  display: inline-flex;
+  > * + * {
+    padding-left: 0.5rem;
+    font-size: 22px;
+  }
+}
